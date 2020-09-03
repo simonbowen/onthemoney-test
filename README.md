@@ -25,11 +25,6 @@ more time I would consider refactoring the code into smaller units to make it ea
 # Build
 
 ```
-git clone https://github.com/simonbowen/onthemoney-test.git
-cd onthemoney-test
-cd client && npm i && npm run build
-cd -
-docker-compose build
-docker-compose up -d
-open http://localhost:3000
+make build
+make start
 ```

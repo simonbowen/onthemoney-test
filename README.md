@@ -34,7 +34,7 @@ make start
 ## Manually
 
 ```bash
-cd client && npm i && npm run build
+cd client && yarn && yarn build
 cd ..
 docker-compose build
 docker-compose up -d

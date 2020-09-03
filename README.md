@@ -25,7 +25,7 @@ more time I would consider refactoring the code into smaller units to make it ea
 # Build
 
 ```
-cd client && npm run build
+cd client && npm i && npm run build
 cd -
 docker-compose build
 docker-compose up -d

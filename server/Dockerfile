@@ -10,7 +10,7 @@ USER node
 
 RUN npm install
 
-COPY --chown=node:node . .
+COPY --chown=node:node ../client .
 
 EXPOSE 4000
 

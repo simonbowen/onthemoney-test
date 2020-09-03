@@ -8,8 +8,7 @@ services:
       - "3000:80"
   node:
     build:
-      context: ./client
-      dockerfile: Dockerfile
+      context: ./server
     volumes:
       - ./server:/home/node/app
     ports:

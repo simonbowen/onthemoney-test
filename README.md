@@ -24,7 +24,20 @@ more time I would consider refactoring the code into smaller units to make it ea
 
 # Build
 
-```
+## Using Make
+
+```bash
 make build
 make start
+```
+
+## Manually
+
+```bash
+cd client && npm i && npm run build
+cd ..
+docker-compose build
+docker-compose up -d
+sleep 5
+open http://localhost:3000
 ```

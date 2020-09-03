@@ -1,5 +1,5 @@
 build:
-	cd client && npm i && npm run build
+	cd client && yarn i && yarn build
 	cd ..
 	docker-compose build
 start:

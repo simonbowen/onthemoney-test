@@ -7,8 +7,7 @@ services:
     ports:
       - "3000:80"
   node:
-    build:
-      context: ./server
+    build: ./server
     volumes:
       - ./server:/home/node/app
     ports:

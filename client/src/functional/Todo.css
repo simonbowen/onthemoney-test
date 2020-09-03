@@ -1,0 +1,18 @@
+.Todo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Todo--done {
+    text-decoration: line-through;
+}
+
+label {
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+
+.No-Todos {
+
+}

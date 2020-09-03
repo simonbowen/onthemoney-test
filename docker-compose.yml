@@ -8,8 +8,6 @@ services:
       - "3000:80"
   node:
     build: ./server
-    volumes:
-      - ./server:/home/node/app
     ports:
       - "4000:4000"
 
